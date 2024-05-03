@@ -1,0 +1,85 @@
+/* General Body Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f9;
+}
+
+/* Signup Container */
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.signup-form img.logo {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px;
+    display: block; /* Make the image a block element */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signup-form h1 {
+    margin-bottom: 20px;
+}
+
+.signup-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #76b947;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #5a8f37;
+}
+
+.social-signup {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-signup p {
+    margin-bottom: 10px;
+}
+
+.social-button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.social-button.facebook { background-color: #3b5998; }
+.social-button.google { background-color: #db4437; }
+.social-button.twitter { background-color: #1da1f2; }
+
+.social-button:last-child { margin-right: 0; }
