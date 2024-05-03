@@ -1,0 +1,65 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+form#contactForm {
+    flex-grow: 1;
+    max-width: 400px;
+}
+
+form#contactForm h2 {
+    margin-top: 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #76b947;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #5a8f37;
+}
+
+.contact-links {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.contact-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-links li a:hover {
+    text-decoration: underline;
+}
